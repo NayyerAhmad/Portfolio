@@ -372,6 +372,43 @@ section{
     color: crimson;
 }
 
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: crimson;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height: 45px;
+}
+form .submit{
+    display: inline-block;
+    background: crimson;
+    color: white;
+    font-size: 20px;
+    padding: 9px 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+form .submit:hover{
+    color: crimson;
+    background: none;
+    cursor: pointer;
+
+}
 
 
 /* responsive webpage */
