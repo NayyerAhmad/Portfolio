@@ -249,12 +249,22 @@ section{
     
 }
 
-.skills .skills-content .left img{
-    float: left;
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
-    border-radius: 6px;
+.skills .title::after{
+    content: "what I know";
+    position: absolute;
+    bottom: -11px;
+    left: 50%;
+    padding: 5px;
+    background: white;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: crimson;
+
+}
+
+.skills .skills-content .column{
+    width: 50%;
+    
 }
 
 
