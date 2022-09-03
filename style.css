@@ -259,7 +259,6 @@ section{
     transform: translateX(-50%);
     font-size: 20px;
     color: crimson;
-
 }
 
 .skills .skills-content .column{
@@ -267,6 +266,33 @@ section{
     
 }
 
+.skills .skills-content .left .text{
+    font-size: 2 0px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.skills .skills-content .right .bars{
+    margin-bottom: 14px;
+}
+
+.skills .skills-content .right .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skills-content .right .span{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.skills .skills-content .right .line{
+    height: 6px;
+    width: 100%;
+    background: lightgray;
+    
+}
 
 /* responsive webpage */
 
