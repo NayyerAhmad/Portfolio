@@ -410,6 +410,23 @@ form .submit:hover{
 
 }
 
+/* footer styling */
+
+footer{
+    background: black;
+    padding: 20px 23px;
+    color: crimson;
+}
+
+footer span{
+    color: white;
+    text-decoration: none;
+}
+
+footer span a:hoover{
+    text-decoration: underline;
+}
+
 
 /* responsive webpage */
 
