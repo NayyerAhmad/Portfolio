@@ -114,6 +114,7 @@ section{
     padding: 100px 0;
 }
 
+
 .about .title{
     position: relative;
     text-align: center;
@@ -155,7 +156,7 @@ section{
 }
 
 .about .about-content .left {
-    width: 45%;
+    width: 10%;
 }
 
 .about .about-content .right {
@@ -333,6 +334,7 @@ section{
     width: 40%;
 }
 
+/* footer styling */
 
 /* contact me section */
 section{
@@ -409,8 +411,6 @@ form .submit:hover{
     cursor: pointer;
 
 }
-
-/* footer styling */
 
 footer{
     background: black;
