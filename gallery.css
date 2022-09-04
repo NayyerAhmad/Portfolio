@@ -1,19 +1,133 @@
-* {
+/* gallery styling */
+
+.maincover {
+    padding: 80px 30px 0px;
+}
+h1{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.grid {
-    display: block;
-    padding: 15px;
+p {
+    margin: 0;
 }
 
-.grid .col {
-    background-color: grey;
+.column {
+    background-color: black;
+    width: 33.33%;
+    /* width to keep it in line with the page */
+    min-height: 250px;
+    float: left;
+}
+
+.wrapper{
+    margin: 25px;
+    padding: 35px;
+    background-color: crimson;
+}
+
+.wrapper h1{
+    margin-bottom: 20px;
+}
+
+.wrapper p {
+    margin-bottom: 20px;
+}
+
+.wrapper img{
+    width: 100%;
+}
+
+/* footer styling */
+
+/* contact me section */
+section{
+    padding: 100px 0;
+}
+
+.contact .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+.contact .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
+    
+}
+
+.contact .title::after{
+    content: "Reach Me";
+    position: absolute;
+    bottom: -11px;
+    left: 50%;
+    padding: 5px;
+    background: white;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: crimson;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: crimson;
+    font-size: 18px;
     margin-bottom: 16px;
-    padding: 10px;
+}
+
+input{
+    height: 45px;
+}
+form .submit{
+    display: inline-block;
+    background: crimson;
+    color: white;
+    font-size: 20px;
+    padding: 9px 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+form .submit:hover{
+    color: crimson;
+    background: none;
+    cursor: pointer;
+
+}
+
+footer{
+    background: black;
+    padding: 20px 23px;
+    color: crimson;
+}
+
+footer span{
+    color: white;
+    text-decoration: none;
+}
+
+footer span a:hoover{
+    text-decoration: underline;
 }
 
 /* responsive webpage */
@@ -21,10 +135,5 @@
 
 /* for IPad */
 
-@media (max-width: 820px){
-}
 
 /* for IPhone SE */
-
-@media (max-width: 375px){
-}
