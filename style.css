@@ -363,7 +363,6 @@ section{
 }
 
 .contact .title::after{
-    content: "Reach Me";
     position: absolute;
     bottom: -11px;
     left: 50%;
