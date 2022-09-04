@@ -110,8 +110,9 @@ margin: 5px 0;
 }
 
 /* about section */
-section{
-    padding: 100px 0;
+.about{
+    background-color: grey;
+    border-radius: 3rem;
 }
 
 
@@ -141,7 +142,8 @@ section{
     bottom: -11px;
     left: 50%;
     padding: 5px;
-    background: white;
+    background: whitesmoke;
+    border-radius: 2rem;
     transform: translateX(-50%);
     font-size: 20px;
     color: crimson;
@@ -176,10 +178,10 @@ section{
 
 
 /* Projects section */
-section{
-    padding: 100px 0;
+.projects{
+    background-color: rgb(147, 146, 146);
+    border-radius: 2rem;
 }
-
 .projects .title{
     position: relative;
     text-align: center;
@@ -207,7 +209,8 @@ section{
     bottom: -11px;
     left: 50%;
     padding: 5px;
-    background: white;
+    background: whitesmoke;
+    border-radius: 2rem;
     transform: translateX(-50%);
     font-size: 20px;
     color: crimson;

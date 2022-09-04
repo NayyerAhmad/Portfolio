@@ -76,6 +76,7 @@ p {
 
 .column {
     background-color: black;
+    border-radius: 5rem;
     width: 33.33%;
     /* width to keep it in line with the page */
     min-height: 250px;
@@ -84,6 +85,7 @@ p {
 
 .wrapper{
     margin: 25px;
+    border-radius: 1rem;
     padding: 35px;
     background-color: crimson;
 }
