@@ -4,3 +4,27 @@
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.grid {
+    display: block;
+    padding: 15px;
+}
+
+.grid .col {
+    background-color: grey;
+    margin-bottom: 16px;
+    padding: 10px;
+}
+
+/* responsive webpage */
+
+
+/* for IPad */
+
+@media (max-width: 820px){
+}
+
+/* for IPhone SE */
+
+@media (max-width: 375px){
+}
