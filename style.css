@@ -413,7 +413,8 @@ form .submit:hover{
 }
 
 footer{
-    background: black;
+    text-align: center;
+    background: url("images/banner.jpg");
     padding: 20px 23px;
     color: crimson;
 }

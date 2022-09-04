@@ -1,3 +1,66 @@
+ /* universal reset */
+ *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* styling for navigation area, flex, anchor, list style*/
+.navigation{
+    position: fixed;
+    background: url("images/banner.jpg");
+    width: 100%;
+    /* zindex to hide text while scrolling */
+    z-index: 999;
+    padding: 30px;
+    transition: all 0.3s ease;
+    /* check for font */
+}
+
+.navigation.sticky{
+    padding: 15px 0;
+    background: crimson;
+}
+.navigation .navflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navflex{
+    padding: 0 80px;
+    margin: auto;
+    max-width: 1300px;
+}
+
+.navigation .menu li {
+    list-style: none;
+    display: inline;    
+}
+
+.navigation .menu li a{
+    color: white;
+    font-size: 18px;
+    margin-left: 25px;
+    transition: color 0.3s ease; 
+}
+
+.navigation .banner a{
+    font-size: 35px;
+    color: white;
+}
+
+.navigation .menu li a:hover{
+    color: crimson;
+}
+
+.navigation.sticky .menu li a:hover{
+    color: white;
+}
+
+
 /* gallery styling */
 
 .maincover {
@@ -116,7 +179,8 @@ form .submit:hover{
 }
 
 footer{
-    background: black;
+    background: url("images/banner.jpg");
+    text-align: center;
     padding: 20px 23px;
     color: crimson;
 }
